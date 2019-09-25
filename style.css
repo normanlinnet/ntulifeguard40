@@ -72,3 +72,17 @@ a {
 #content {
   margin-top: 85px;
 }
+
+.video-container {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.video-container>iframe {
+  width: 100%;
+}
+
+.video-container>div {
+  margin-top: 10px;
+}

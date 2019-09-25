@@ -21,6 +21,12 @@ const contentTitle = `
   </a>
 </div>
 </div>
+
+<div class="video-container">
+<div>水手</div>
+<iframe src="https://www.youtube.com/embed/donlOCXRzvw?start=36" frameborder="0"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 `;
 
 const contentEscape = `
