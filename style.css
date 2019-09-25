@@ -3,6 +3,10 @@ body {
   margin: 0;
 }
 
+a {
+  color: #28a745;
+}
+
 .card {
   border-radius: .25rem;
   border: 1px solid #28a745;

@@ -14,6 +14,10 @@ function toggleMenu() {
 }
 
 document
+  .getElementById("title")
+  .addEventListener("click", () => display("No.40 Cheatsheet", contentTitle));
+
+document
   .getElementById("carry")
   .addEventListener("click", () => display("CARRY", contentCarry));
 
