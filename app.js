@@ -24,3 +24,11 @@ document
 document
   .getElementById("emt")
   .addEventListener("click", () => display("EMT", contentEMT));
+
+document
+  .getElementById("approach")
+  .addEventListener("click", () => display("APPROACH", contentApproach));
+
+document
+  .getElementById("escape")
+  .addEventListener("click", () => display("DEFENSE ESCAPE", contentEscape));

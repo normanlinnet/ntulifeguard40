@@ -1,3 +1,167 @@
+const contentEscape = `
+  <div class="card">
+  <div class="card-header">逆退</div>
+  <details>
+    <summary class="card-body">緊急停游 > 身體向後仰 > 大腿屈向胸部強力打水 > 抬頭捷游離</summary>
+    <div class="card-detail">
+      <p>
+        1) 溺者在離救者大約 2 公尺處撲上前。
+        <p>
+          2) 救者此時緊急停游並將身體向後仰,大腿屈向胸部出水強力打水,混淆溺者視聽。
+        </p>
+        <p>
+          3) 以遠離溺者方向,抬頭捷快速游離溺者。 </p>
+    </div>
+  </details>
+  </div>
+
+  <div class="card">
+  <div class="card-header">潛避</div>
+  <details>
+    <summary class="card-body">兩手扶住溺者的腰際向上向前推 > 潛泳離開溺者 > 護頭上升 > 抬頭捷游離</summary>
+    <div class="card-detail">
+      <p>
+        1) 溺者在離救者大約 0.5 公尺處撲上前。
+        <p>
+          2) 救者兩手扶住溺者的腰際向上向前推,再用反作用力潛水離開溺者。
+        </p>
+        <p>
+          3) 潛泳並護頭上升,抬頭捷快速游離溺者。
+        </p>
+    </div>
+  </details>
+  </div>
+
+  <div class="card">
+  <div class="card-header">單足壓離</div>
+  <details>
+    <summary class="card-body">腳掌跟往溺者的同側肩窩處貼緊 > 把溺者推向水中 > 抬頭捷游離</summary>
+    <div class="card-detail">
+      <p>
+        1) 溺者在離救者略大於 1 公尺處(腿長的距離)撲上前。
+        <p>
+          2) 救者把腳掌掌跟往溺者的同側肩窩處貼緊,把溺者推向水中並
+          轉身抬頭捷快速游離溺者。
+        </p>
+        <p>
+          *腳掌跟貼緊溺者肩窩後再推離,不可用腳把溺者踹開!
+          *肩窩:鎖骨和連接手臂骨頭處下方的三角區域。 </p>
+    </div>
+  </details>
+  </div>
+
+  <div class="card">
+  <div class="card-header">單手推離</div>
+  <details>
+    <summary class="card-body">手掌跟往溺者的同側肩窩處貼緊 > 把溺者向自己反方向推 > 抬頭捷游離</summary>
+    <div class="card-detail">
+      <p>
+        1) 溺者在離救者略小於 1 公尺處(手臂長的距離)撲上前。
+        <p>
+          2) 將手掌掌跟往溺者的同側肩窩處貼緊,把溺者向自己反方向推出水面並利用反作用力轉身抬頭捷快速游離溺者。
+        </p>
+    </div>
+  </details>
+  </div>
+
+  <div class="card">
+  <div class="card-header">
+    <a href="https://drive.google.com/open?id=1QtPlCoUYSQvD-v4u1L0UwZCWrFzeGkyl">接近法與防衛躲避法講義</a>
+  </div>
+  </div>
+`;
+
+const contentApproach = `
+  <div class="card">
+  <div class="card-header">正面接近</div>
+  <details>
+    <summary class="card-body">緊急停游 > 安撫溺者 > 捉腕拖轉 > 托顎頂背</summary>
+    <div class="card-detail">
+      <p>
+        1) 接近溺者緊急停游: 2 公尺處緊急停游。
+      </p>
+      <p>
+        2) 安撫溺者:大聲喊「不要怕,我來救你了!」
+      </p>
+      <p>
+        3) 捉腕拖轉:右手虎口朝前掌心朝下,由上向下
+        劃出水面,抓住溺者對側手腕,將溺者逆時針
+        旋轉 180 度,往自己的右側方拉,溺者手臂伸
+        直貼救者耳際。
+      </p>
+      <p>
+        4) 托顎頂背
+      </p>
+    </div>
+  </details>
+  </div>
+
+  <div class="card">
+  <div class="card-header">正面潛水接近</div>
+  <details>
+    <summary class="card-body">鐮刀式入水 > 緊急停游 > 捉膝轉身 > 浮升 > 托顎頂背</summary>
+    <div class="card-detail">
+      <p>
+        1) 接近溺者: 離溺者 2 公尺處鐮刀式入水*。
+      </p>
+      <p>
+        2) 緊急停游:潛至頭部與溺者膝蓋同高,並在 1
+        公尺處緊急停游,觀察溺者膝蓋。
+      </p>
+      <p>
+        3) 捉膝轉身:雙手虎口朝上,捉住溺者膝蓋外
+        側,逆時針旋轉 180 度(右推左拉),頭部貼
+        緊溺者臀部。
+      </p>
+      <p>
+        4) 浮升:內側手向上扶腰(先放開左手沿大腿向
+        上扶腰);外側手托至腋下(再放開右手沿大
+        腿腰際托至腋下,撐出水面)。
+      </p>
+      <p>
+        5) 托顎頂背:扶腰手托顎,再放開托腋手頂背。
+      </p>
+    </div>
+  </details>
+  </div>
+
+  <div class="card">
+  <div class="card-header">正面潛水背面接近</div>
+  <details>
+    <summary class="card-body">鐮刀式入水 > 游到溺者後方 > 護頭上升 > 緊急停游 > 托顎頂背</summary>
+    <div class="card-detail">
+      <p>
+        1) 鐮刀式入水*:離溺者前方 2 公尺處鐮刀式入
+        水,潛水從右邊繞過溺者,至溺者正後方約 2
+        公尺處護頭上升並緊急停游。
+        <p>
+          2) 托顎頂背
+        </p>
+    </div>
+  </details>
+  </div>
+
+  <div class="card">
+  <div class="card-header">背面接近</div>
+  <details>
+    <summary class="card-body">緊急停游 > 托顎頂背</summary>
+    <div class="card-detail">
+      <p>
+        1) 接近溺者緊急停游:以抬頭捷或抬頭蛙游至溺者背後,接近溺者並在 2 公尺處緊急停游。
+        <p>
+          2) 托顎頂背
+        </p>
+    </div>
+  </details>
+  </div>
+
+  <div class="card">
+  <div class="card-header">
+    <a href="https://drive.google.com/open?id=1QtPlCoUYSQvD-v4u1L0UwZCWrFzeGkyl">接近法與防衛躲避法講義</a>
+  </div>
+  </div>
+`;
+
 const contentEMT = `
 <div class="card">
 <div class="card-header">放下溺者 (單人拖帶)</div>

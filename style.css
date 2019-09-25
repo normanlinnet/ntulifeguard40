@@ -37,15 +37,19 @@ body {
 }
 
 .topnav #myLinks {
-  /* display: none; */
+  display: none;
 }
 
 .topnav a {
   color: white;
-  padding: 22px 27px;
+  padding: 14px 22px;
   text-decoration: none;
   font-size: 20px;
   display: block;
+}
+
+#title, a.icon {
+  padding: 22px 27px;
 }
 
 .topnav a.icon {
