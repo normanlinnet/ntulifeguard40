@@ -115,3 +115,7 @@ a.icon {
 #lyrics {
   color: #000;
 }
+
+a.important-item {
+  color: #f00;
+}
